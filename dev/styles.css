@@ -1,0 +1,42 @@
+body {
+    background-color: #262626;
+    font-family: 'calibri', sans-serif;
+}
+
+p, h3 {
+    color: #fff;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* Setting up a box around the entire content */
+.user {
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+/* Setting Font Colour for Table */
+.user .top table tr td, img {
+    color: #fff;
+}
+
+/* Setting border for the table */
+.user .top table {
+    border-collapse: collapse;
+    max-width: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user .top table td {
+    border: 2px solid #fff;
+}
